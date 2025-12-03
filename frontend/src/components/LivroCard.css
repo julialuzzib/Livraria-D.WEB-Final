@@ -1,0 +1,91 @@
+.livros-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 20px 0;
+}
+
+.livros-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.livro-card {
+    background-color: var(--color-bg-secondary); 
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s, border-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.livro-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.livro-card h3 {
+    color: var(--color-text-primary);
+    margin-top: 0;
+    font-size: 1.4em;
+}
+
+.livro-card p {
+    color: var(--color-text-secondary);
+    margin: 5px 0;
+}
+
+.livro-card-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.card-actions .btn {
+  flex: 1;
+  font-size: 13px;
+  padding: 8px 12px;
+  text-align: center;
+  margin: 7px;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 50px;
+    border: 2px dashed var(--color-border);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.btn-favorito {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: var(--color-text-secondary); 
+    padding: 0;
+    transition: color 0.2s;
+    align-self: flex-end;
+    margin: 2px;
+}
+
+.btn-favorito.favorited {
+    color: var(--color-error); 
+    margin: 2px;
+}
+
+.livro-card-info {
+    margin-bottom: 10px;
+    margin: 2px;
+}
+.livro-card-info h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px 0;
+}
