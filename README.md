@@ -5,9 +5,9 @@ Este projeto é uma aplicação web simples para praticar conceitos básicos de 
 # Funcionalidades escolhidas
 ## Criar uma Nova Tabela (ex.: Reviews):
 Foi adicionada a tabela dde Reviews, que permite aos usuários adicionar comentários/descrições dos livros já cadastrados. Bem como os avaliar entre 5 estrelas, e visualizar a média das avaliações. É possível ocultar ou susualizar todos os comentários.
-##Sistema de Favoritos:
+## Sistema de Favoritos:
 O usuário pode adicionar ou remover os livros de sua lista de Favoritos. Também listar todos os títulos que já adicionou lá.
-##Tema Claro/Escuro no FrontEnd:
+## Tema Claro/Escuro no FrontEnd:
 No Header há um botão com o ícone que altera o tema para claro/escuro. A escolha é mantida mesmo ao atualizar o site e é aplicada em todas as páginas.
 
 
